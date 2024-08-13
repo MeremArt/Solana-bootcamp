@@ -1,13 +1,14 @@
 // functions2.rs
 // Make me compile! Execute `rustlings hint functions2` for hints :)
 
-// I AM NOT DONE
+
 
 fn main() {
     call_this(3);
 }
 
-fn call_this(num:) {
+fn call_this(num: i32) {
+    let num =10;
     for i in 0..num {
         println!("Loop! number {}", i + 1);
     }
